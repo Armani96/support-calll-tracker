@@ -1,0 +1,80 @@
+[
+    {
+        "Bel #": "4",
+        "Customer Name": "AAAC- Anthony ",
+        "Opgelost/Doorgezet": "Doorgezet",
+        "Probleem": "Vraag over aansluitingen en kabels ajax fibre",
+        "Oplossing": "",
+        "Note": "",
+        "Verbeter punten": "Verdiepen in fibre en de aansluitingen werken.",
+        "Call Back Required": "No",
+        "Waiting for Email": "No",
+        "Timestamp": "15:58 18/06/2024",
+        "Completed": 1
+    },
+    {
+        "Bel #": "5",
+        "Customer Name": "Guard Vision",
+        "Opgelost/Doorgezet": "Opgelost",
+        "Probleem": "VTO + VTH Aansluiten + uitleg",
+        "Oplossing": "Uitgelegd en laten zien hoe je het in kan stellen.",
+        "Note": "",
+        "Verbeter punten": "",
+        "Call Back Required": "No",
+        "Waiting for Email": "No",
+        "Timestamp": "16:29 18/06/2024",
+        "Completed": 1
+    },
+    {
+        "Bel #": "6",
+        "Customer Name": "John CCTV",
+        "Opgelost/Doorgezet": "Opgelost",
+        "Probleem": "Vraag of de DHI-NVR4204-P-EI Dahua recorder 4 8MP Camera's aankan",
+        "Oplossing": "Alleen zonder AI kan hij 4 8MP camera's aan, anders 3.",
+        "Note": "",
+        "Verbeter punten": "",
+        "Call Back Required": "No",
+        "Waiting for Email": "No",
+        "Timestamp": "16:32 18/06/2024",
+        "Completed": 1
+    },
+    {
+        "Bel #": "3",
+        "Customer Name": "Proward",
+        "Opgelost/Doorgezet": "Opgelost",
+        "Probleem": "NVR 8 Kanaals - Alleen \"Aan\" lampje werkt. ethernet lampjes branden niet, geen beeld lijkt vast te zitten bij het opstarten. Probeerd hardeschijf te ontkoppelen",
+        "Oplossing": "Recorder is defect, mogelijk gebrickt. Gaat RMA opsturen",
+        "Note": "-",
+        "Verbeter punten": "-",
+        "Call Back Required": "No",
+        "Waiting for Email": "No",
+        "Timestamp": "18/06/2024",
+        "Completed": ""
+    },
+    {
+        "Bel #": "2",
+        "Customer Name": "Gertjan Werfex",
+        "Opgelost/Doorgezet": "Opgelost",
+        "Probleem": "Dahua recorder (6 jaar oud) Valt soms uit, na sterker uit en in doet hij het weer.\n",
+        "Oplossing": "Hoogstwaarschijnlijk Power Supply Unit verouderd (PSU). Serienummer + ww gevraagd, naar Dahua sturen om te vragen of van ons af komt.\n",
+        "Note": "Serie nummer + WW nodig",
+        "Verbeter punten": "Soms uitvallen kan aan voedings problemen liggen, vooral wanneer het om oude hardware gaat.",
+        "Call Back Required": "Yes",
+        "Waiting for Email": "Yes",
+        "Timestamp": "",
+        "Completed": ""
+    },
+    {
+        "Bel #": "7",
+        "Customer Name": "Ulan Tech",
+        "Opgelost/Doorgezet": "Opgelost",
+        "Probleem": "Vorige week vraag gestuurd, zou antwoord krijgen maar is niet gebeurd. Ging over Fibre Ajax Systeem ",
+        "Oplossing": "Khio belt hem morgen terug, weet waar het over gaat.",
+        "Note": "",
+        "Verbeter punten": "",
+        "Call Back Required": "Yes",
+        "Waiting for Email": "No",
+        "Timestamp": "16:44 18/06/2024",
+        "Completed": 0
+    }
+]

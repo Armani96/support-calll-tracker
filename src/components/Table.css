@@ -1,0 +1,14 @@
+.table-row span {
+    display: inline-block;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.table-container {
+    width: 100%;
+}
+
+
