@@ -28,7 +28,7 @@ const Table = () => {
 
     const fetchRecords = useCallback(async () => {
         try {
-            const response = await axios.get('http://192.168.1.42:5000/records');
+            const response = await axios.get('http://192.168.178.227:5001/records');
             setRecords(response.data.records);
         } catch (error) {
             console.error('Error fetching records:', error);

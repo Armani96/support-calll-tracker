@@ -14,7 +14,7 @@ export const DataProvider = ({ children }) => {
 
     const fetchRecords = async () => {
         try {
-            const response = await axios.get('http://192.168.1.42:5000/records');
+            const response = await axios.get('http://192.168.178.227:5001/records');
             setRecords(response.data.records);
         } catch (error) {
             console.error('Error fetching records:', error);
@@ -24,7 +24,7 @@ export const DataProvider = ({ children }) => {
     const addRecord = async (newRecord) => {
         try {
             const timestamp = new Date().toISOString();
-            const response = await axios.post('http://192.168.1.42:5000/records', { ...newRecord, timestamp });
+            const response = await axios.post('http://192.168.178.227:5001/records', { ...newRecord, timestamp });
             setRecords([...records, response.data]);
         } catch (error) {
             console.error('Error adding record:', error);
@@ -33,7 +33,7 @@ export const DataProvider = ({ children }) => {
 
     const updateRecord = async (updatedRecord) => {
         try {
-            const response = await axios.put(`http://192.168.1.42:5000/records/${updatedRecord.id}`, updatedRecord);
+            const response = await axios.put(`http://192.168.178.227:5001/records/${updatedRecord.id}`, updatedRecord);
             setRecords(records.map(record => record.id === updatedRecord.id ? response.data : record));
         } catch (error) {
             console.error('Error updating record:', error);
@@ -42,7 +42,7 @@ export const DataProvider = ({ children }) => {
 
     const deleteRecord = async (id) => {
         try {
-            await axios.delete(`http://192.168.1.42:5000/records/${id}`);
+            await axios.delete(`http://192.168.178.227:5001/records/${id}`);
             setRecords(records.filter(record => record.id !== id));
         } catch (error) {
             console.error('Error deleting record:', error);

@@ -22,7 +22,7 @@ const Dashboard = () => {
 
     const fetchRecords = useCallback(async () => {
         try {
-            const response = await axios.get('http://192.168.1.42:5000/records');
+            const response = await axios.get('http://192.168.178.227:5001/records');
             const fetchedRecords = response.data.records;
             setRecords(fetchedRecords);
             calculateCounts(fetchedRecords);
